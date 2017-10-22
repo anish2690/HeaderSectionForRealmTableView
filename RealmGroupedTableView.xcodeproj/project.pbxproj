@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443B93F91F9C8BF2005A3CFF /* RealmDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B93F81F9C8BF2005A3CFF /* RealmDb.swift */; };
+		443B93FB1F9C903E005A3CFF /* DynamicTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B93FA1F9C903E005A3CFF /* DynamicTableViewSection.swift */; };
 		4492699E1F9A384800BF6EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492699D1F9A384800BF6EFD /* AppDelegate.swift */; };
-		449269A01F9A384800BF6EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492699F1F9A384800BF6EFD /* ViewController.swift */; };
+		449269A01F9A384800BF6EFD /* StaticGrouppedTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492699F1F9A384800BF6EFD /* StaticGrouppedTable.swift */; };
 		449269A31F9A384800BF6EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449269A11F9A384800BF6EFD /* Main.storyboard */; };
 		449269A51F9A384800BF6EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449269A41F9A384800BF6EFD /* Assets.xcassets */; };
 		449269A81F9A384800BF6EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449269A61F9A384800BF6EFD /* LaunchScreen.storyboard */; };
+		A92F8A89218F22AC9C4440FA /* Pods_RealmGroupedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA69BC3E34C413DD7A8B3E2 /* Pods_RealmGroupedTableView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A727DA10558DC794BBF93EC /* Pods-RealmGroupedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmGroupedTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmGroupedTableView/Pods-RealmGroupedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA69BC3E34C413DD7A8B3E2 /* Pods_RealmGroupedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmGroupedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443B93F81F9C8BF2005A3CFF /* RealmDb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDb.swift; sourceTree = "<group>"; };
+		443B93FA1F9C903E005A3CFF /* DynamicTableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewSection.swift; sourceTree = "<group>"; };
 		4492699A1F9A384800BF6EFD /* RealmGroupedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmGroupedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4492699D1F9A384800BF6EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4492699F1F9A384800BF6EFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4492699F1F9A384800BF6EFD /* StaticGrouppedTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticGrouppedTable.swift; sourceTree = "<group>"; };
 		449269A21F9A384800BF6EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		449269A41F9A384800BF6EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449269A71F9A384800BF6EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449269A91F9A384800BF6EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B8944E3381EE0ABF2EBDB0 /* Pods-RealmGroupedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmGroupedTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmGroupedTableView/Pods-RealmGroupedTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92F8A89218F22AC9C4440FA /* Pods_RealmGroupedTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115FCD174854F86466AF5809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EA69BC3E34C413DD7A8B3E2 /* Pods_RealmGroupedTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32723AC054C484F5D8224B53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A727DA10558DC794BBF93EC /* Pods-RealmGroupedTableView.debug.xcconfig */,
+				53B8944E3381EE0ABF2EBDB0 /* Pods-RealmGroupedTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		449269911F9A384800BF6EFD = {
 			isa = PBXGroup;
 			children = (
 				4492699C1F9A384800BF6EFD /* RealmGroupedTableView */,
 				4492699B1F9A384800BF6EFD /* Products */,
+				32723AC054C484F5D8224B53 /* Pods */,
+				115FCD174854F86466AF5809 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				4492699D1F9A384800BF6EFD /* AppDelegate.swift */,
-				4492699F1F9A384800BF6EFD /* ViewController.swift */,
+				4492699F1F9A384800BF6EFD /* StaticGrouppedTable.swift */,
 				449269A11F9A384800BF6EFD /* Main.storyboard */,
 				449269A41F9A384800BF6EFD /* Assets.xcassets */,
 				449269A61F9A384800BF6EFD /* LaunchScreen.storyboard */,
 				449269A91F9A384800BF6EFD /* Info.plist */,
+				443B93F81F9C8BF2005A3CFF /* RealmDb.swift */,
+				443B93FA1F9C903E005A3CFF /* DynamicTableViewSection.swift */,
 			);
 			path = RealmGroupedTableView;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 449269AC1F9A384800BF6EFD /* Build configuration list for PBXNativeTarget "RealmGroupedTableView" */;
 			buildPhases = (
+				8DC24E2DEFC35F4B31BECB29 /* [CP] Check Pods Manifest.lock */,
 				449269961F9A384800BF6EFD /* Sources */,
 				449269971F9A384800BF6EFD /* Frameworks */,
 				449269981F9A384800BF6EFD /* Resources */,
+				157B509B6DEB0DF417BB359A /* [CP] Embed Pods Frameworks */,
+				8B13C93453D41818E6886341 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +164,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157B509B6DEB0DF417BB359A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmGroupedTableView/Pods-RealmGroupedTableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmGroupedTableView/Pods-RealmGroupedTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B13C93453D41818E6886341 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmGroupedTableView/Pods-RealmGroupedTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DC24E2DEFC35F4B31BECB29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmGroupedTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		449269961F9A384800BF6EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449269A01F9A384800BF6EFD /* ViewController.swift in Sources */,
+				449269A01F9A384800BF6EFD /* StaticGrouppedTable.swift in Sources */,
+				443B93FB1F9C903E005A3CFF /* DynamicTableViewSection.swift in Sources */,
+				443B93F91F9C8BF2005A3CFF /* RealmDb.swift in Sources */,
 				4492699E1F9A384800BF6EFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +363,11 @@
 		};
 		449269AD1F9A384800BF6EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A727DA10558DC794BBF93EC /* Pods-RealmGroupedTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH7MDTQEFS;
 				INFOPLIST_FILE = RealmGroupedTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devop.RealmGroupedTableView;
@@ -286,9 +379,11 @@
 		};
 		449269AE1F9A384800BF6EFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B8944E3381EE0ABF2EBDB0 /* Pods-RealmGroupedTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YH7MDTQEFS;
 				INFOPLIST_FILE = RealmGroupedTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devop.RealmGroupedTableView;
